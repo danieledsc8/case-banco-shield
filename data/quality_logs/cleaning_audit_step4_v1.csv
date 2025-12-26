@@ -1,0 +1,11 @@
+contract_id,field,old_value,action,reason
+C202504-BA-001621,location_id,999,ROW_REMOVED,FK inválida: location_id inexistente em dim_localidade. Linha removida para preservar integridade referencial.
+C202505-BA-002143,location_id,999,ROW_REMOVED,FK inválida: location_id inexistente em dim_localidade. Linha removida para preservar integridade referencial.
+C202505-BA-002221,location_id,999,ROW_REMOVED,FK inválida: location_id inexistente em dim_localidade. Linha removida para preservar integridade referencial.
+C202506-BA-002613,location_id,999,ROW_REMOVED,FK inválida: location_id inexistente em dim_localidade. Linha removida para preservar integridade referencial.
+C202506-HI-002916,location_id,999,ROW_REMOVED,FK inválida: location_id inexistente em dim_localidade. Linha removida para preservar integridade referencial.
+C202507-BA-003030,location_id,999,ROW_REMOVED,FK inválida: location_id inexistente em dim_localidade. Linha removida para preservar integridade referencial.
+C202508-BA-003669,location_id,999,ROW_REMOVED,FK inválida: location_id inexistente em dim_localidade. Linha removida para preservar integridade referencial.
+C202509-HI-004453,location_id,999,ROW_REMOVED,FK inválida: location_id inexistente em dim_localidade. Linha removida para preservar integridade referencial.
+C202510-BA-004534,location_id,999,ROW_REMOVED,FK inválida: location_id inexistente em dim_localidade. Linha removida para preservar integridade referencial.
+C202510-HI-004980,location_id,999,ROW_REMOVED,FK inválida: location_id inexistente em dim_localidade. Linha removida para preservar integridade referencial.

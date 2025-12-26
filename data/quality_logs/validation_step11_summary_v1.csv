@@ -1,0 +1,17 @@
+check,status,bad_count,total_count,bad_pct,details
+ano_mes_format_YYYYMM,PASS,0,5975,0.0,"Esperado: YYYYMM (6 dígitos), mês 01-12."
+ano_mes_nan,PASS,0,5975,0.0,OK
+bank_nan,PASS,0,5975,0.0,OK
+contract_id_nan,PASS,0,5975,0.0,OK
+duplicate_rows_on_key_soft,PASS,0,5975,0.0,"Duplicidade na chave soft: ['contract_id', 'ano_mes', 'bank']"
+financed_amount_nan,PASS,0,5975,0.0,OK
+financed_amount_non_negative,PASS,0,5975,0.0,Esperado >= 0
+financed_amount_numeric_castable,PASS,0,5975,0.0,errors=coerce
+fk_location_id_dim_localidade,PASS,0,5975,0.0,location_id deve existir na dim_localidade
+fk_product_id_dim_produto,PASS,0,5975,0.0,product_id deve existir na dim_produto
+outstanding_balance_nan,PASS,0,5975,0.0,OK
+outstanding_balance_non_negative,PASS,0,5975,0.0,Esperado >= 0
+outstanding_balance_numeric_castable,PASS,0,5975,0.0,errors=coerce
+product_id_nan,PASS,0,5975,0.0,OK
+required_columns_min,PASS,0,6,0.0,OK
+risk_score_range_0_1,PASS,0,5975,0.0,Esperado entre 0 e 1.

@@ -1,0 +1,34 @@
+metric,value,section,bank,neg_count,neg_sum,neg_mean,neg_min,neg_max,ano_mes,product_id,product_name
+rows_total,5990.0,summary,,,,,,,,,
+financed_amount_negative_count,14.0,summary,,,,,,,,,
+financed_amount_negative_pct,0.233723,summary,,,,,,,,,
+financed_amount_nan_count,16.0,summary,,,,,,,,,
+sum_financed_pos,85571586.80000001,summary,,,,,,,,,
+sum_financed_neg,-397082.8199999999,summary,,,,,,,,,
+sum_financed_abs,85968669.62,summary,,,,,,,,,
+impact_if_apply_abs_on_all,794165.6399999857,summary,,,,,,,,,
+,,by_bank,Hidra,8.0,-198297.1,-24787.1375,-74180.38,-194.9,,,
+,,by_bank,Banco Shield,6.0,-198785.72,-33130.95333333333,-65664.66,-704.97,,,
+,,by_month,,4.0,-194277.09000000003,-48569.27250000001,-74180.38,-194.9,202505.0,,
+,,by_month,,4.0,-88197.51000000001,-22049.377500000002,-51349.29,-2487.42,202507.0,,
+,,by_month,,1.0,-56840.59,-56840.59,-56840.59,-56840.59,202503.0,,
+,,by_month,,1.0,-28442.23,-28442.23,-28442.23,-28442.23,202501.0,,
+,,by_month,,1.0,-16687.79,-16687.79,-16687.79,-16687.79,202508.0,,
+,,by_month,,1.0,-11040.74,-11040.74,-11040.74,-11040.74,202511.0,,
+,,by_month,,1.0,-891.9,-891.9,-891.9,-891.9,202506.0,,
+,,by_month,,1.0,-704.97,-704.97,-704.97,-704.97,202509.0,,
+,,by_product,,3.0,-185258.12,-61752.706666666665,-74180.38,-54237.15,,1011.0,Refinanciamento Mjölnir
+,,by_product,,2.0,-1086.8,-543.4,-891.9,-194.9,,1002.0,Financiamento Quinjet
+,,by_product,,1.0,-65664.66,-65664.66,-65664.66,-65664.66,,1005.0,Empréstimo Arc Reactor
+,,by_product,,1.0,-51349.29,-51349.29,-51349.29,-51349.29,,1010.0,Investimento Infinity
+,,by_product,,1.0,-29710.24,-29710.24,-29710.24,-29710.24,,1013.0,Seguro Multiverso
+,,by_product,,1.0,-28442.23,-28442.23,-28442.23,-28442.23,,1014.0,Financiamento Moto Ghost Rider
+,,by_product,,1.0,-16687.79,-16687.79,-16687.79,-16687.79,,1016.0,Leasing Milano
+,,by_product,,1.0,-11040.74,-11040.74,-11040.74,-11040.74,,1007.0,Crédito Wakandano
+,,by_product,,1.0,-4650.56,-4650.56,-4650.56,-4650.56,,1019.0,Seguro Sokovia
+,,by_product,,1.0,-2487.42,-2487.42,-2487.42,-2487.42,,1015.0,Consórcio Xandar
+,,by_product,,1.0,-704.97,-704.97,-704.97,-704.97,,1017.0,Cartão Spider
+neg_with_outstanding_balance_gt_0_count,14.0,coherence,,,,,,,,,
+neg_with_outstanding_balance_gt_0_pct,100.0,coherence,,,,,,,,,
+neg_with_dpd_ge_30_count,0.0,coherence,,,,,,,,,
+neg_with_delinquent_amount_30p_gt_0_count,0.0,coherence,,,,,,,,,

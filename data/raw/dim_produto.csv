@@ -1,0 +1,21 @@
+product_id,product_name,category,tenor_months,base_rate_apr
+1001,Cartão Vibranium,Conta,60,0.2634
+1002,Financiamento Quinjet,Seguro,24,0.2822
+1003,Consórcio Stark,Empréstimo,48,0.1511
+1004,Seguro Asgard,Conta,24,0.2858
+1005,Empréstimo Arc Reactor,Consórcio,48,0.1809
+1006,Leasing Hulkbuster,Investimentos,60,0.1556
+1007,Crédito Wakandano,Empréstimo,12,0.3677
+1008,Plano Família Barton,Empréstimo,48,0.3718
+1009,Conta Digital SHIELD,Conta,24,0.334
+1010,Investimento Infinity,Financiamento,60,0.2131
+1011,Refinanciamento Mjölnir,Consórcio,48,0.1634
+1012,Crédito Pantera,Conta,12,0.3042
+1013,Seguro Multiverso,Consórcio,12,0.2456
+1014,Financiamento Moto Ghost Rider,Consórcio,36,0.1693
+1015,Consórcio Xandar,Investimentos,36,0.2588
+1016,Leasing Milano,Empréstimo,24,0.1483
+1017,Cartão Spider,Seguro,48,0.3582
+1018,Financiamento Blackbird,Investimentos,48,0.2021
+1019,Seguro Sokovia,Investimentos,36,0.299
+1020,Crédito Kamar-Taj,Consórcio,48,0.2148

@@ -1,0 +1,17 @@
+contract_id,field,old_value,new_value,action,reason,source_value_outstanding_balance
+C202501-BA-000045,financed_amount,,18081.31,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,18081.31
+C202501-HI-000438,financed_amount,,23930.54,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,23930.54
+C202502-BA-000575,financed_amount,,0.0,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,0.0
+C202502-BA-000585,financed_amount,,5250.36,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,5250.36
+C202502-BA-000695,financed_amount,,0.0,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,0.0
+C202502-HI-000775,financed_amount,,28628.15,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,28628.15
+C202503-BA-001042,financed_amount,,4664.11,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,4664.11
+C202503-BA-001116,financed_amount,,36062.16,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,36062.16
+C202505-HI-002281,financed_amount,,43180.96,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,43180.96
+C202506-HI-002955,financed_amount,,11551.11,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,11551.11
+C202508-BA-003680,financed_amount,,0.0,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,0.0
+C202509-BA-004014,financed_amount,,10844.35,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,10844.35
+C202509-BA-004255,financed_amount,,3607.03,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,3607.03
+C202510-HI-004776,financed_amount,,0.0,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,0.0
+C202512-BA-005691,financed_amount,,1791.16,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,1791.16
+C202512-BA-005705,financed_amount,,45316.39,IMPUTE_FROM_OUTSTANDING_BALANCE,financed_amount ausente; imputado com outstanding_balance (valor conservador/piso).,45316.39

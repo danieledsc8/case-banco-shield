@@ -1,0 +1,44 @@
+DATASET DO CASE - BANCO SHIELD vs HIDRA (UNIVERSO MARVEL)
+Versão: 1.0
+Geração: 2025-12-18
+
+ARQUIVOS
+1) dim_produto.csv
+   - product_id (PK, inteiro): Identificador único do produto.
+   - product_name (texto): Nome do produto no universo Marvel.
+   - category (texto): Categoria do produto (ex.: Financiamento, Cartões, Seguro etc.).
+   - tenor_months (inteiro): Prazo típico do produto, em meses.
+   - base_rate_apr (decimal): Taxa base anual (APR) usada como referência.
+
+2) dim_localidade.csv
+   - location_id (PK, inteiro): Identificador único da localidade.
+   - location_name (texto): Nome da localidade (cidades/territórios do universo Marvel e Brasil).
+   - macro_region (texto): Macro-região (ex.: Brasil, Europa, Galáxia etc.).
+   - risk_factor_region (decimal): Fator regional que influencia risco (quanto maior, maior propensão a inadimplência).
+
+3) fato_contratos.csv
+   - contract_id (PK lógica, texto): Identificador do contrato/registro (espera-se unicidade).
+   - ano_mes (inteiro AAAAMM): Mês de referência do evento.
+   - bank (texto): Instituição (Banco Shield ou concorrente Hidra).
+   - product_id (FK -> dim_produto.product_id): Produto contratado.
+   - location_id (FK -> dim_localidade.location_id): Localidade de originação.
+   - units (inteiro): Quantidade de contratos no registro (neste dataset, 1 por linha).
+   - financed_amount (decimal): Valor financiado/contratado no mês (R$). Para produtos sem contratação financeira (ex.: Conta), pode ser 0.
+   - outstanding_balance (decimal): Saldo/exposição em aberto (R$).
+   - dpd (inteiro): Days Past Due (dias em atraso). 0 = adimplente.
+   - delinquent_amount_30p (decimal): Valor em atraso (R$) para contratos 30+ DPD (0 quando não aplicável).
+   - risk_score (decimal 0-1): Score de risco sintético (maior = mais risco).
+
+REGRAS DE NEGÓCIO ESPERADAS (PARA VALIDAÇÃO)
+- Integridade referencial: product_id e location_id devem existir nas dimensões.
+- Domínios válidos:
+  - bank deve ser "Banco Shield" ou "Hidra".
+  - ano_mes deve estar no intervalo 202501 a 202512.
+- Regras de valores:
+  - financed_amount e outstanding_balance não devem ser negativos.
+  - delinquent_amount_30p deve ser 0 quando dpd < 30.
+  - risk_score deve estar entre 0 e 1.
+- Unicidade: contract_id deve ser único.
+
+OBSERVAÇÕES
+- Os dados foram gerados de forma fictícia e contêm ruídos intencionais (ex.: incompletude/erros) para simular cenários reais de governança e qualidade.

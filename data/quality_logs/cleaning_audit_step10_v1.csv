@@ -1,0 +1,5 @@
+check,bad_count,total_count,bad_pct,details
+product_id_nan,15,5990,0.25041736227045075,Linhas com product_id ausente (NA). Removidas.
+invalid_product_id_fk,0,5990,0.0,Linhas com product_id fora da dim_produto. Removidas.
+rows_removed_step10,15,5990,0.25041736227045075,Total removido no passo 10 (NaN + FK inválidos).
+rows_total_after_step10,5975,5975,0.0,Total após limpeza do passo 10.

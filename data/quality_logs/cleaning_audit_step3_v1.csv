@@ -1,0 +1,42 @@
+contract_id,field,old_value,new_value,reason
+C202502-BA-000532,bank,HIDRA ,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202502-BA-000552,bank,HIDRA ,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202502-BA-000732,bank,Hydra,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202502-HI-000902,bank,Hydra,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202502-HI-000972,bank,Hydra,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202502-HI-000997,bank,Hydra,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202503-HI-001273,bank,HIDRA ,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202503-HI-001416,bank,HIDRA ,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202504-HI-001927,bank,Banco S.H.I.E.L.D,Banco Shield,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202505-BA-002077,bank,Banco S.H.I.E.L.D,Banco Shield,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202505-BA-002173,bank,Banco S.H.I.E.L.D,Banco Shield,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202506-BA-002556,bank,Banco S.H.I.E.L.D,Banco Shield,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202508-BA-003670,bank,HIDRA ,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202508-HI-003945,bank,HIDRA ,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202509-BA-004056,bank,Hydra,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202509-BA-004231,bank,HIDRA ,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202509-HI-004339,bank,Banco S.H.I.E.L.D,Banco Shield,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202510-BA-004643,bank,HIDRA ,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202512-BA-005649,bank,Hydra,Hidra,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202512-BA-005675,bank,Banco S.H.I.E.L.D,Banco Shield,Normalização de domínio: padronização para valores permitidos (Banco Shield / Hidra).
+C202501-BA-000020,ano_mes,202513,202501,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202502-BA-000614,ano_mes,202513,202502,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202502-HI-000797,ano_mes,202513,202502,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202503-BA-001027,ano_mes,202513,202503,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202503-BA-001113,ano_mes,202513,202503,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202503-HI-001312,ano_mes,202513,202503,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202504-BA-001729,ano_mes,202513,202504,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202504-HI-001775,ano_mes,202513,202504,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202504-HI-001923,ano_mes,202513,202504,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202505-HI-002445,ano_mes,202513,202505,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202506-BA-002593,ano_mes,202513,202506,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202506-HI-002830,ano_mes,202513,202506,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202506-HI-002941,ano_mes,202513,202506,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202507-HI-003434,ano_mes,202513,202507,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202509-HI-004382,ano_mes,202513,202509,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202511-BA-005014,ano_mes,202513,202511,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202511-HI-005355,ano_mes,202513,202511,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202511-HI-005447,ano_mes,202513,202511,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202512-BA-005723,ano_mes,202513,202512,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202512-HI-005835,ano_mes,202513,202512,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.
+C202512-HI-005913,ano_mes,202513,202512,Correção de ano_mes inválido/fora do range usando YYYYMM extraído do contract_id.

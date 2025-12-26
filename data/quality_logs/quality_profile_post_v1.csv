@@ -1,0 +1,15 @@
+check,bad_count,total_count,bad_pct,details
+financed_amount_negative_or_nan,30,5990,0.005008347245409015,financed_amount deve ser numérico e >= 0.
+invalid_product_id_fk,15,5990,0.0025041736227045075,product_id inexistente em dim_produto ou inválido.
+ano_mes_invalid_format,0,5990,0.0,ano_mes não numérico/NaN.
+ano_mes_invalid_month,0,5990,0.0,Mês fora de 01-12.
+ano_mes_out_of_expected_range_202501_202512,0,5990,0.0,Fora do intervalo 202501–202512 descrito no metadados.
+bank_outside_allowed_domain,0,5990,0.0,Valores inválidos: []
+delinquent_amount_30p_negative_or_nan,0,5990,0.0,delinquent_amount_30p deve ser numérico e >= 0.
+dpd_negative_or_nan,0,5990,0.0,dpd deve ser numérico e >= 0.
+duplicate_contract_id,0,5990,0.0,contract_id deve ser único.
+invalid_location_id_fk,0,5990,0.0,location_id inexistente em dim_localidade ou inválido.
+outstanding_balance_negative_or_nan,0,5990,0.0,outstanding_balance deve ser numérico e >= 0.
+risk_score_outside_0_1_or_nan,0,5990,0.0,risk_score deve ser numérico e estar entre 0 e 1.
+rule_violation_dpd_lt_30_with_delinquent_gt_0,0,5990,0.0,Regra: dpd < 30 => delinquent_amount_30p deve ser 0.
+units_not_integer_or_not_equal_1,0,5990,0.0,units deve ser inteiro e igual a 1 (1 contrato por linha).

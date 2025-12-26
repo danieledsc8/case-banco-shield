@@ -1,0 +1,16 @@
+location_id,location_name,macro_region,risk_factor_region
+501,Nova York,Norte América,1.034
+502,Wakanda,África,1.046
+503,Nova Asgard,Europa,0.883
+504,Sokovia,Europa,1.236
+505,Xandar,Galáxia,1.149
+506,Knowhere,Galáxia,1.223
+507,Sanctum SP,Brasil,1.203
+508,Rio de Janeiro,Brasil,1.069
+509,São Paulo,Brasil,1.215
+510,Curitiba,Brasil,0.84
+511,Salvador,Brasil,0.888
+512,Belo Horizonte,Brasil,0.82
+513,Recife,Brasil,0.946
+514,Porto Alegre,Brasil,0.975
+515,Brasília,Brasil,0.922

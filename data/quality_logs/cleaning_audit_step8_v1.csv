@@ -1,0 +1,15 @@
+contract_id,field,old_value,new_value,action,reason
+C202501-HI-000268,financed_amount,-28442.23,28442.23,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202503-BA-001221,financed_amount,-56840.59,56840.59,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202505-BA-002081,financed_amount,-65664.66,65664.66,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202505-BA-002248,financed_amount,-54237.15,54237.15,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202505-HI-002290,financed_amount,-194.9,194.9,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202505-HI-002311,financed_amount,-74180.38,74180.38,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202506-HI-002975,financed_amount,-891.9,891.9,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202507-BA-003109,financed_amount,-4650.56,4650.56,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202507-HI-003291,financed_amount,-2487.42,2487.42,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202507-HI-003329,financed_amount,-29710.24,29710.24,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202507-HI-003370,financed_amount,-51349.29,51349.29,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202508-BA-003659,financed_amount,-16687.79,16687.79,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202509-BA-004170,financed_amount,-704.97,704.97,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).
+C202511-HI-005450,financed_amount,-11040.74,11040.74,SIGN_FIXED_ABS,Correção por evidência de inversão de sinal (Passo 7).

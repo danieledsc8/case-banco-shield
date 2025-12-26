@@ -1,0 +1,27 @@
+metric,value
+before_path,/content/drive/MyDrive/Case/case-shield-hidra/data/raw/fato_contratos.csv
+after_path,/content/drive/MyDrive/Case/case-shield-hidra/data/processed/fato_contratos_clean_v4.csv
+rows_before,6000
+rows_after,5975
+rows_removed,25
+rows_removed_pct,0.416667
+unique_keys_before,5984
+unique_keys_after,5975
+keys_removed_count,66
+keys_removed_pct,1.102941
+keys_added_count,57
+keys_common_count,5918
+changed_rows_common_keys_count,30
+changed_rows_common_keys_pct,0.506928
+modified_cells_total,30
+modified_cells_pct,0.063366
+columns_compared_count,8
+columns_compared_list,"product_id, location_id, units, financed_amount, outstanding_balance, dpd, delinquent_amount_30p, risk_score"
+changed_cells__delinquent_amount_30p,0
+changed_cells__dpd,0
+changed_cells__financed_amount,30
+changed_cells__location_id,0
+changed_cells__outstanding_balance,0
+changed_cells__product_id,0
+changed_cells__risk_score,0
+changed_cells__units,0

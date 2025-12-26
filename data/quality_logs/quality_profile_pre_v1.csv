@@ -1,0 +1,12 @@
+check,bad_count,total_count,bad_pct,details
+duplicate_contract_id,32,6000,0.005333333333333333,Contagem de linhas que fazem parte de duplicidades (não apenas 'duplicados').
+ano_mes_invalid_month (mês fora 01-12),21,6000,0.0035,Ex.: 202513 tem mês=13 (inválido).
+ano_mes_out_of_expected_range (202501-202512),21,6000,0.0035,Fora do intervalo esperado do case.
+invalid_location_id_fk,10,6000,0.0016666666666666668,location_id presente na fato mas inexistente na dim_localidade.
+bank_domain_variants (apenas informativo),3,6000,0.0005,"Valores únicos encontrados: ['Banco S.H.I.E.L.D', 'Banco Shield', 'HIDRA', 'Hidra', 'Hydra']"
+ano_mes_invalid_format (NaN/non-numeric),0,6000,0.0,Valores que não puderam ser convertidos para número.
+delinquent_amount_30p_negative_or_nan,0,6000,0.0,delinquent_amount_30p não pode ser negativo e deve ser numérico.
+dpd_negative_or_nan,0,6000,0.0,dpd não pode ser negativo e deve ser numérico.
+invalid_product_id_fk,0,6000,0.0,product_id presente na fato mas inexistente na dim_produto.
+risk_score_outside_0_1_or_nan,0,6000,0.0,risk_score deve estar entre 0 e 1 após normalização.
+rule_violation_dpd_lt_30_with_delinquent_gt_0,0,6000,0.0,Regra: dpd < 30 não pode ter delinquent_amount_30p > 0.
