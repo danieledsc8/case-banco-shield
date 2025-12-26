@@ -115,13 +115,6 @@ Gera `summary` e `sample` de issues (para evidência e priorização de controle
 
 ---
 
-## 📌 Nota importante (decisão alinhada ao dashboard)
-### `outstanding_balance <= financed_amount`
-Este ponto **não é “forçado”** no pipeline como correção automática.  
-Ele é **monitorado/quantificado** no notebook e foi deixado para análise no **Power BI**, pois pode envolver interpretação de negócio (ex.: momento do saldo vs contratação, evolução do saldo, particularidades do produto, etc.).
-
----
-
 ## 📦 Outputs gerados (principais)
 ### Dados tratados (exemplos)
 - `data/processed/fato_contratos_clean_v1.csv`
@@ -165,7 +158,7 @@ Ele é **monitorado/quantificado** no notebook e foi deixado para análise no **
     step12_*.csv
 
   dashboards/
-    PowerBI_BancoShield.pbix  # arquivo do Power BI
+    Case - Banco Shield.pbix  # arquivo do Power BI
 
   ppt/
     Apresentacao_Case_Shield_Hidra.pptx  # apresentação de slides
